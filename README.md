@@ -21,14 +21,14 @@ This Power BI project analyzes responses from data professionals globally, uncov
 ## 📈 Dashboards Overview
 
 ### 1. Career & Salary Breakdown
-![Career Dashboard](./Screenshots/Data%20Professional%20Survey%20Breakdown.png)
+![Career Dashboard](plots/Data%20Professional%20Survey%20Breakdown.png)
 
 - Highest average salaries found in **Data Scientist** and **Data Engineer** roles.  
 - **Python** is the most preferred programming language.  
 - Salary positively correlates with **PhD and Master’s education levels**.
 
 ### 2. Demographics, Career Switch & Satisfaction
-![Satisfaction Dashboard](./Screenshots/Survey%20Report.png)
+![Satisfaction Dashboard](plots/Survey%20Report.png)
 
 - Many **career switchers** landed data roles as **Data Analysts**.  
 - **Work/life balance** is highly rated, while **salary satisfaction** is lower.  
