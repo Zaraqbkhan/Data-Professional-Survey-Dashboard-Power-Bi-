@@ -1,64 +1,56 @@
-# Data Professional Survey Dashboard (Power BI)
+# 📊 Data Professional Survey Dashboard (Power BI)
 
-This Power BI project presents a detailed analysis of responses collected from data professionals across the world. The survey aims to explore their current roles, job satisfaction, salary trends, educational backgrounds, tech preferences, and challenges in breaking into the data industry.
+This Power BI project analyzes responses from data professionals globally, uncovering trends in salary, satisfaction, tools, and challenges in the industry.
 
-## Dataset Overview
+## 📁 Files Included
+- `PowerBI_Report/Data_Professional_Survey_Report.pbix`
+- `Data/survey_data.csv`
+- `Screenshots/dashboard_overview.png`
 
-- **Source**: Data has been taken from the source given here "https://github.com/AlexTheAnalyst/Power-BI/blob/main/Power%20BI%20-%20Final%20Project.xlsx".  
-- **Respondents**: Professionals working in data-focused roles globally.  
-- **Fields include**:
-  - Role Titles  
-  - Career Switchers  
-  - Salary (USD)  
-  - Industry Type  
+## 🔍 Dataset Overview
+- **Source**: [GitHub - AlexTheAnalyst](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Power%20BI%20-%20Final%20Project.xlsx)
+- **Fields**:
+  - Job Titles, Salary, Country, Education, Gender, Age  
   - Favorite Programming Language  
-  - Satisfaction Metrics (salary, work-life balance, coworkers, etc.)  
-  - Job Search Priorities  
-  - Demographics (Age, Gender, Country, Education, Ethnicity)
+  - Industry  
+  - Career Switch Info  
+  - Job Satisfaction Metrics
 
-## Dashboards Included
+---
 
-### 1. Career & Salary Overview
-- Total Respondents  
-- Distribution of Job Titles  
-- Career switchers vs. non-switchers  
-- Salary breakdown by role, industry, and country  
-- Favorite programming languages  
+## 📈 Dashboards Overview
 
-### 2. Satisfaction & Demographics
-- Overall happiness with Salary, Management, Learning, etc.  
-- Age and Gender distribution  
-- Education level vs. salary  
-- Country-wise comparison  
-- Challenges in breaking into data  
+### 1. Career & Salary Breakdown
+![Career Dashboard](./Screenshots/Data%20Professional%20Survey%20Breakdown.png)
 
-## Key Insights
+- Highest average salaries found in **Data Scientist** and **Data Engineer** roles.  
+- **Python** is the most preferred programming language.  
+- Salary positively correlates with **PhD and Master’s education levels**.
 
-- Majority of high earners tend to work in tech or finance.  
-- Python is the most favored language across roles.  
-- Work-life balance ranks high in job satisfaction, but upward mobility scores lower.  
-- Career switchers report slightly lower satisfaction in early roles.
+### 2. Demographics, Career Switch & Satisfaction
+![Satisfaction Dashboard](./Screenshots/Survey%20Report.png)
 
-## KPIs Tracked
+- Many **career switchers** landed data roles as **Data Analysts**.  
+- **Work/life balance** is highly rated, while **salary satisfaction** is lower.  
+- Entering data careers is reported as more difficult at lower education levels.
 
-- Total Survey Takers  
-- Career Switch Rate  
-- Average Salary  
-- Most Preferred Programming Language  
-- Satisfaction Averages by Dimension
+---
 
-## Tools Used
+## 💡 Key Insights
 
-- Microsoft Power BI  
-- Excel / CSV for data cleaning  
-- Power Query for transformation  
-- DAX for custom metrics and KPIs
+- **Tech and Finance** dominate the high-salary segments.  
+- **Python** remains dominant across all job titles.  
+- **Remote work and company culture** rank high in workplace priorities.  
+- Career switchers often start in entry roles and work their way up.
 
-## Files Included
+---
 
-- `PowerBI_Report/Data_Professional_Survey_Report.pbix`  
-- `Data/survey_data.csv`  
-- `Screenshots/dashboard_overview.png`  
+## 🛠️ Tools Used
+- **Power BI**  
+- **Excel / CSV**  
+- **Power Query**  
+- **DAX (for KPIs)**
 
+---
 
-Feel free to explore the `.pbix` report and dataset for more insights, and contact me if you’d like to discuss the project further!
+Feel free to explore the `.pbix` file for an interactive experience.
