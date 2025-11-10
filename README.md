@@ -1,56 +1,43 @@
-# 📊 Data Professional Survey Dashboard (Power BI)
+# Data Professional Survey Dashboard (Power BI)
 
-This Power BI project analyzes responses from data professionals globally, uncovering trends in salary, satisfaction, tools, and challenges in the industry.
+## Project Overview
+This Power BI project analyzes global survey responses from data professionals to uncover trends in salary, job satisfaction, tools, and career progression. The dashboard transforms raw survey data into clear insights about workforce composition, compensation distribution, and factors influencing professional satisfaction in the data industry.
 
-## 📁 Files Included
-- `PowerBI_Report/Data_Professional_Survey_Report.pbix`
-- `Data/survey_data.csv`
-- `Screenshots/dashboard_overview.png`
+## Business Problem
+Organizations and aspiring data professionals often lack visibility into the skills, education, and tools driving success and compensation in data-related careers. This project addresses that gap by using Power BI to visualize how demographics, education, and career paths relate to salary and job satisfaction across the data domain.
 
-## 🔍 Dataset Overview
-- **Source**: [GitHub - AlexTheAnalyst](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Power%20BI%20-%20Final%20Project.xlsx)
-- **Fields**:
-  - Job Titles, Salary, Country, Education, Gender, Age  
-  - Favorite Programming Language  
-  - Industry  
-  - Career Switch Info  
-  - Job Satisfaction Metrics
+## Analytical Approach
+The dataset was transformed and modeled in Power BI using Power Query and DAX to derive KPIs and trend metrics.  
+Key areas of analysis included:
+- Salary comparison by job title, education level, and region  
+- Career switch patterns and job satisfaction measures  
+- Preferred tools and technologies among data professionals  
 
----
+## Dashboards Overview
 
-## 📈 Dashboards Overview
+### Career and Salary Breakdown
+![Career Dashboard](plots/Data%20Professional%20Survey%20Breakdown.png)  
+Data Scientists and Data Engineers recorded the highest average salaries. Python emerged as the most used programming language, and higher education levels (Master’s, PhD) were linked to stronger compensation outcomes.
 
-### 1. Career & Salary Breakdown
-![Career Dashboard](plots/Data%20Professional%20Survey%20Breakdown.png)
+### Demographics, Career Switch, and Satisfaction
+![Satisfaction Dashboard](plots/Survey%20Report.png)  
+Many career switchers transitioned into Data Analyst roles. Respondents reported high satisfaction with work-life balance but lower satisfaction with salary progression, especially among those with limited academic credentials.
 
-- Highest average salaries found in **Data Scientist** and **Data Engineer** roles.  
-- **Python** is the most preferred programming language.  
-- Salary positively correlates with **PhD and Master’s education levels**.
+## Key Insights
+- Tech and Finance sectors offer the highest salary potential for data roles.  
+- Python continues to dominate as the primary programming language.  
+- Remote work, culture, and work-life balance are top job satisfaction factors.  
+- Career switchers typically begin in analyst roles and progress into higher positions over time.
 
-### 2. Demographics, Career Switch & Satisfaction
-![Satisfaction Dashboard](plots/Survey%20Report.png)
+## Technical Implementation
+Developed in Power BI with data cleaning and transformation performed using Power Query.  
+DAX measures were used to compute KPIs for salary averages, satisfaction indices, and demographic distributions.  
+Data source: [GitHub – AlexTheAnalyst](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Power%20BI%20-%20Final%20Project.xlsx)
 
-- Many **career switchers** landed data roles as **Data Analysts**.  
-- **Work/life balance** is highly rated, while **salary satisfaction** is lower.  
-- Entering data careers is reported as more difficult at lower education levels.
+## Files Included
+- `PowerBI_Report/Data_Professional_Survey_Report.pbix`  
+- `Data/survey_data.csv`  
+- `Screenshots/dashboard_overview.png`  
 
----
-
-## 💡 Key Insights
-
-- **Tech and Finance** dominate the high-salary segments.  
-- **Python** remains dominant across all job titles.  
-- **Remote work and company culture** rank high in workplace priorities.  
-- Career switchers often start in entry roles and work their way up.
-
----
-
-## 🛠️ Tools Used
-- **Power BI**  
-- **Excel / CSV**  
-- **Power Query**  
-- **DAX (for KPIs)**
-
----
-
-Feel free to explore the `.pbix` file for an interactive experience.
+## Conclusion
+The Power BI dashboard delivers a comprehensive overview of global data professionals’ demographics, tools, and satisfaction levels. It provides valuable insight for organizations seeking to understand workforce trends and for individuals planning data career paths.
